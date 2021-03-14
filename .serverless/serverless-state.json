@@ -221,7 +221,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/teste/dev/1615670216442-2021-03-13T21:16:56.442Z/teste.zip"
+                "S3Key": "serverless/teste/dev/1615745402555-2021-03-14T18:10:02.555Z/teste.zip"
               },
               "Handler": "s_api_teste.handler",
               "Runtime": "nodejs12.x",
@@ -239,14 +239,14 @@
               "ApiDashtesteLogGroup"
             ]
           },
-          "ApiDashtesteLambdaVersion9qZqoV5guTrR26m9ls97D37C2D8dYxOmEqkGTDzQqUI": {
+          "ApiDashtesteLambdaVersionQqEgz0ZV3oQ7m5LzKuiFLF5tscHidY8XJC1NLpM4": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ApiDashtesteLambdaFunction"
               },
-              "CodeSha256": "BVdxxRBMjKB0Qdj93zj8MZAQEzXrjmNX5AA3U/xvPOA="
+              "CodeSha256": "1Xe269c6uOFbLHRx+IZ2FH2ptIgI9wuYOZkegEzOqFM="
             }
           },
           "ApiGatewayRestApi": {
@@ -458,7 +458,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1615670199137": {
+          "ApiGatewayDeployment1615745380231": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -619,7 +619,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/teste/dev/1615670216442-2021-03-13T21:16:56.442Z/custom-resources.zip"
+                "S3Key": "serverless/teste/dev/1615745402555-2021-03-14T18:10:02.555Z/custom-resources.zip"
               },
               "FunctionName": "teste-dev-custom-resource-apigw-cw-role",
               "Handler": "apiGatewayCloudWatchRole/handler.handler",
@@ -675,7 +675,7 @@
           "ApiDashtesteLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ApiDashtesteLambdaVersion9qZqoV5guTrR26m9ls97D37C2D8dYxOmEqkGTDzQqUI"
+              "Ref": "ApiDashtesteLambdaVersionQqEgz0ZV3oQ7m5LzKuiFLF5tscHidY8XJC1NLpM4"
             }
           },
           "ServiceEndpoint": {
@@ -856,7 +856,7 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "ApiDashtesteLambdaVersion9qZqoV5guTrR26m9ls97D37C2D8dYxOmEqkGTDzQqUI"
+        "versionLogicalId": "ApiDashtesteLambdaVersionQqEgz0ZV3oQ7m5LzKuiFLF5tscHidY8XJC1NLpM4"
       }
     },
     "configValidationMode": "warn",
@@ -882,10 +882,10 @@
     "isDashboardAppPreconfigured": true,
     "orgUid": "8a023872-3e2f-4066-a942-a686589e16f8",
     "appUid": "P1n0ldcG8bC8F4xGCH",
-    "artifact": "C:\\Users\\jonathan.silva\\Desktop\\teste\\.serverless\\teste.zip"
+    "artifact": "C:\\Users\\jonathan.silva\\Desktop\\POC.LambdaAWS\\.serverless\\teste.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/teste/dev/1615670216442-2021-03-13T21:16:56.442Z",
+    "artifactDirectoryName": "serverless/teste/dev/1615745402555-2021-03-14T18:10:02.555Z",
     "artifact": "teste.zip"
   }
 }
