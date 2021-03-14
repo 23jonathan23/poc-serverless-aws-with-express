@@ -207,7 +207,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/teste/dev/1615745402555-2021-03-14T18:10:02.555Z/teste.zip"
+          "S3Key": "serverless/teste/dev/1615759154178-2021-03-14T21:59:14.178Z/teste.zip"
         },
         "Handler": "s_api_teste.handler",
         "Runtime": "nodejs12.x",
@@ -225,14 +225,14 @@
         "ApiDashtesteLogGroup"
       ]
     },
-    "ApiDashtesteLambdaVersionQqEgz0ZV3oQ7m5LzKuiFLF5tscHidY8XJC1NLpM4": {
+    "ApiDashtesteLambdaVersionwILtuwQ0o5KxbiBmJMpYIwfJojc96ijKNrn8GAVw": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiDashtesteLambdaFunction"
         },
-        "CodeSha256": "1Xe269c6uOFbLHRx+IZ2FH2ptIgI9wuYOZkegEzOqFM="
+        "CodeSha256": "b32kVg1f+oYG7tWEEGonSrvF+oisuZWNSwCyXyvJ074="
       }
     },
     "ApiGatewayRestApi": {
@@ -444,7 +444,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1615745380231": {
+    "ApiGatewayDeployment1615759136201": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -605,7 +605,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/teste/dev/1615745402555-2021-03-14T18:10:02.555Z/custom-resources.zip"
+          "S3Key": "serverless/teste/dev/1615759154178-2021-03-14T21:59:14.178Z/custom-resources.zip"
         },
         "FunctionName": "teste-dev-custom-resource-apigw-cw-role",
         "Handler": "apiGatewayCloudWatchRole/handler.handler",
@@ -661,7 +661,7 @@
     "ApiDashtesteLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiDashtesteLambdaVersionQqEgz0ZV3oQ7m5LzKuiFLF5tscHidY8XJC1NLpM4"
+        "Ref": "ApiDashtesteLambdaVersionwILtuwQ0o5KxbiBmJMpYIwfJojc96ijKNrn8GAVw"
       }
     },
     "ServiceEndpoint": {
